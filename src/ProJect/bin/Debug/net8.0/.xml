@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProJect</name>
+    </assembly>
+    <members>
+        <member name="M:ProJect.Controllers.SalesByDate.Sales(System.String,System.String,System.String,System.String)">
+            <summary>
+            Get date range.
+            </summary>
+            <param name="start">The start date.</param>
+            <param name="end">The end date.</param>
+            <returns>The number of days between the two dates.</returns>
+            <response code="200">The operation was successful.</response>
+            <response code="400">The operation failed due to invalid input.</response>
+        </member>
+        <member name="M:ProJect.Controllers.DateController.GetDateRange(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            Get date range.
+            </summary>
+            <param name="start">The start date.</param>
+            <param name="end">The end date.</param>
+            <returns>The number of days between the two dates.</returns>
+            <response code="200">The operation was successful.</response>
+            <response code="400">The operation failed due to invalid input.</response>
+        </member>
+    </members>
+</doc>
