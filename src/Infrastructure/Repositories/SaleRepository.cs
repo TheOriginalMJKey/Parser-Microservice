@@ -4,7 +4,16 @@ using Domain.Models;
 using Application.Interfaces;
 using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
-using Infrastructure.Persistence;
+using Infrastructure.Repositories;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Threading.Tasks;
+using Domain.ViewModels;
+using Npgsql;
+using NpgsqlTypes;using System.Collections.Generic;
+using Infrastructure.Extensions;
+
 
 namespace Infrastructure.Repositories
 {
@@ -48,6 +57,36 @@ namespace Infrastructure.Repositories
                     string.IsNullOrEmpty(customerName) ? null : customerName,
                     string.IsNullOrEmpty(goodsName) ? null : goodsName)
                 .ToListAsync();
+
+                return result;
+                
+            }
+
+        public async Task<List<SalesByGoodsViewModel>> GetSalesByGoods(DateTime startDate, DateTime endDate, string goodsName)
+        {
+            string sqlQuery = "SELECT goods.goods_name, SUM(sales.quantity) as quantity " +
+                              "FROM sales " +
+                              "JOIN goods ON sales.goods_id = goods.goods_id " +
+                              "WHERE sales.sales_date >= @StartDate " +
+                              "  AND sales.sales_date <= @EndDate " +
+                              "  AND goods.goods_name = @GoodsName " +
+                              "GROUP BY goods.goods_name";
+
+            var parameters = new[]
+            {
+                new NpgsqlParameter("@StartDate", NpgsqlDbType.Date) { Value = startDate },
+                new NpgsqlParameter("@EndDate", NpgsqlDbType.Date) { Value = endDate },
+                new NpgsqlParameter("@GoodsName", NpgsqlDbType.Text) { Value = goodsName }
+            };
+
+            var result = await _context.ExecuteSqlQueryAsync<SalesByGoodsViewModel>(
+                sqlQuery,
+                reader => new SalesByGoodsViewModel
+                {
+                    GoodsName = reader["goods_name"].ToString(),
+                    Quantity = int.Parse(reader["quantity"].ToString())
+                },
+                parameters);
 
             return result;
         }

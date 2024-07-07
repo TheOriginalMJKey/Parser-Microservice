@@ -1,4 +1,6 @@
-﻿using Application.SalesFolder.Handlers;
+﻿using Application.Interfaces;
+using Application.Sales.Handlers;
+using Application.SalesFolder.Handlers;
 using Application.SalesFolder.Interfaces;
 using Infrastructure.Persistence;
 using Infrastructure.Repositories;
@@ -20,6 +22,8 @@ public class Startup
         services.AddControllers();
         services.AddTransient<IGetSalesByDateQueryHandler, GetSalesByDateQueryHandler>();
         services.AddTransient<Application.Interfaces.ISaleRepository, Infrastructure.Repositories.SaleRepository>();
+        services.AddTransient<IGetSalesByGoodsQueryHandler, GetSalesByGoodsQueryHandler>();
+
 
 
         services.AddSwaggerGen(c =>

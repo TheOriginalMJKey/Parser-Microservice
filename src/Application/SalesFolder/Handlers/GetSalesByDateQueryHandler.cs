@@ -17,7 +17,7 @@ namespace Application.SalesFolder.Handlers
             _saleRepository = saleRepository;
         }
 
-        public async Task<List<Sales>> Handle(GetSalesByDateQuery request)
+        public async Task<List<Domain.Models.Sales>> Handle(GetSalesByDateQuery request)
         {
             return await _saleRepository.GetSalesByDate(request.StartDate, request.EndDate, request.CustomerName, request.GoodsName);
         }

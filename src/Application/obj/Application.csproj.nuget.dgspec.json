@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Application\\Application.csproj": {}
+    "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Application\\Application.csproj": {
+    "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -30,11 +30,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Domain\\Domain.csproj"
+              "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -122,7 +122,7 @@
             "Microsoft.NET.Test.Sdk": "[17.1.0, )",
             "Minio": "[6.0.2, )",
             "MongoDB.Driver": "[2.24.0, )",
-            "Npgsql": "[8.0.2, )",
+            "Npgsql": "[8.0.3, )",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.4, )",
             "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": "[8.0.4, )",
             "ObjectDumper.NET": "[4.1.16-pre, )",
@@ -151,6 +151,7 @@
             "Swashbuckle.AspNetCore.Swagger": "[6.5.0, )",
             "Swashbuckle.AspNetCore.SwaggerGen": "[6.5.0, )",
             "Swashbuckle.AspNetCore.SwaggerUI": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.6, )",
             "Telegram.Bot": "[20.0.0-alpha.1, )",
             "Testcontainers": "[3.8.0, )",
             "Testcontainers.Kafka": "[3.8.0, )",
@@ -191,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Domain\\Domain.csproj": {
+    "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -298,7 +299,7 @@
             "Microsoft.NET.Test.Sdk": "[17.1.0, )",
             "Minio": "[6.0.2, )",
             "MongoDB.Driver": "[2.24.0, )",
-            "Npgsql": "[8.0.2, )",
+            "Npgsql": "[8.0.3, )",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.4, )",
             "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": "[8.0.4, )",
             "ObjectDumper.NET": "[4.1.16-pre, )",
@@ -327,6 +328,7 @@
             "Swashbuckle.AspNetCore.Swagger": "[6.5.0, )",
             "Swashbuckle.AspNetCore.SwaggerGen": "[6.5.0, )",
             "Swashbuckle.AspNetCore.SwaggerUI": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.6, )",
             "Telegram.Bot": "[20.0.0-alpha.1, )",
             "Testcontainers": "[3.8.0, )",
             "Testcontainers.Kafka": "[3.8.0, )",
@@ -367,14 +369,14 @@
         }
       }
     },
-    "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "configFilePaths": [
@@ -393,8 +395,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Domain\\Domain.csproj"
+              "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -424,11 +426,31 @@
               "version": "[8.0.6, )",
               "versionCentrallyManaged": true
             },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )",
               "autoReferenced": true
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )",
+              "versionCentrallyManaged": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )",
+              "versionCentrallyManaged": true
             }
           },
           "centralPackageVersions": {
@@ -483,7 +505,7 @@
             "Microsoft.NET.Test.Sdk": "[17.1.0, )",
             "Minio": "[6.0.2, )",
             "MongoDB.Driver": "[2.24.0, )",
-            "Npgsql": "[8.0.2, )",
+            "Npgsql": "[8.0.3, )",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "[8.0.4, )",
             "Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite": "[8.0.4, )",
             "ObjectDumper.NET": "[4.1.16-pre, )",
@@ -512,6 +534,7 @@
             "Swashbuckle.AspNetCore.Swagger": "[6.5.0, )",
             "Swashbuckle.AspNetCore.SwaggerGen": "[6.5.0, )",
             "Swashbuckle.AspNetCore.SwaggerUI": "[6.5.0, )",
+            "System.Data.SqlClient": "[4.8.6, )",
             "Telegram.Bot": "[20.0.0-alpha.1, )",
             "Testcontainers": "[3.8.0, )",
             "Testcontainers.Kafka": "[3.8.0, )",
