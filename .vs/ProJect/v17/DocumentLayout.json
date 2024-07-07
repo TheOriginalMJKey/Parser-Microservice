@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5B58C39-AA28-48BB-A7B0-3974866B8817}|Solution Items{F5B58C39-AA28-48BB-A7B0-3974866B8817}|C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\Directory.Build.Props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F5B58C39-AA28-48BB-A7B0-3974866B8817}|Solution Items{F5B58C39-AA28-48BB-A7B0-3974866B8817}|solutionrelative:Directory.Build.Props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5B58C39-AA28-48BB-A7B0-3974866B8817}|Solution Items{F5B58C39-AA28-48BB-A7B0-3974866B8817}|C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F5B58C39-AA28-48BB-A7B0-3974866B8817}|Solution Items{F5B58C39-AA28-48BB-A7B0-3974866B8817}|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28DF991-3BC1-4EB0-B01C-9E76239590EB}|src\\Presentation\\Presentation.csproj|c:\\users\\andrew\\riderprojects\\parser-microservice2\\src\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28DF991-3BC1-4EB0-B01C-9E76239590EB}|src\\Presentation\\Presentation.csproj|solutionrelative:src\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28DF991-3BC1-4EB0-B01C-9E76239590EB}|src\\Presentation\\Presentation.csproj|c:\\users\\andrew\\riderprojects\\parser-microservice2\\src\\presentation\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28DF991-3BC1-4EB0-B01C-9E76239590EB}|src\\Presentation\\Presentation.csproj|solutionrelative:src\\presentation\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E28DF991-3BC1-4EB0-B01C-9E76239590EB}|src\\Presentation\\Presentation.csproj|c:\\users\\andrew\\riderprojects\\parser-microservice2\\src\\presentation\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E28DF991-3BC1-4EB0-B01C-9E76239590EB}|src\\Presentation\\Presentation.csproj|solutionrelative:src\\presentation\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CE2782D-ADF6-4EB6-99BF-38FF3E13E036}|src\\Application\\Application.csproj|c:\\users\\andrew\\riderprojects\\parser-microservice2\\src\\application\\salesfolder\\handlers\\getsalesbydatequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CE2782D-ADF6-4EB6-99BF-38FF3E13E036}|src\\Application\\Application.csproj|solutionrelative:src\\application\\salesfolder\\handlers\\getsalesbydatequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Directory.Build.Props",
+              "DocumentMoniker": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\Directory.Build.Props",
+              "RelativeDocumentMoniker": "Directory.Build.Props",
+              "ToolTip": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\Directory.Build.Props",
+              "RelativeToolTip": "Directory.Build.Props",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-07-07T08:58:19.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-07-07T08:57:04.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Presentation\\Program.cs",
+              "RelativeToolTip": "src\\Presentation\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T08:51:15.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Presentation\\Startup.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\Startup.cs",
+              "ToolTip": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Presentation\\Startup.cs",
+              "RelativeToolTip": "src\\Presentation\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T08:51:12.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Presentation\\Database.cs",
+              "RelativeDocumentMoniker": "src\\Presentation\\Database.cs",
+              "ToolTip": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Presentation\\Database.cs",
+              "RelativeToolTip": "src\\Presentation\\Database.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T08:49:08.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetSalesByDateQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Application\\SalesFolder\\Handlers\\GetSalesByDateQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Application\\SalesFolder\\Handlers\\GetSalesByDateQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Application\\SalesFolder\\Handlers\\GetSalesByDateQueryHandler.cs",
+              "RelativeToolTip": "src\\Application\\SalesFolder\\Handlers\\GetSalesByDateQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T08:47:56.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
