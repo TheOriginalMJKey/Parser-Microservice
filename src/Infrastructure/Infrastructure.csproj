@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <InvariantGlobalization>true</InvariantGlobalization>
+        <PublishAot>true</PublishAot>
+        <Configurations>Debug;Release;My</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+        <ProjectReference Include="..\Domain\Domain.csproj" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+        <!-- Add references to any other packages your project needs -->
+    </ItemGroup>
+
+</Project>
