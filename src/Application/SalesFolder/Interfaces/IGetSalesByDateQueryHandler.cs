@@ -5,6 +5,6 @@ namespace Application.SalesFolder.Interfaces
 {
     public interface IGetSalesByDateQueryHandler
     {
-        Task<List<Sales>> Handle(GetSalesByDateQuery request);
+        Task<List<Domain.Models.Sales>> Handle(GetSalesByDateQuery request);
     }
 }

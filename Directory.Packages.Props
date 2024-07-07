@@ -49,7 +49,7 @@
     <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
     <PackageVersion Include="Minio" Version="6.0.2" />
     <PackageVersion Include="MongoDB.Driver" Version="2.24.0" />
-    <PackageVersion Include="Npgsql" Version="8.0.2" />
+    <PackageVersion Include="Npgsql" Version="8.0.3" />
     <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
     <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="8.0.4" />
     <PackageVersion Include="ObjectDumper.NET" Version="4.1.16-pre" />
@@ -81,6 +81,7 @@
     <PackageVersion Include="HtmlAgilityPack" Version="1.11.57" />
     <PackageVersion Include="CefSharp.Common.NETCore" Version="120.2.70" />
     <PackageVersion Include="CefSharp.OffScreen.NETCore" Version="120.2.70" />
+    <PackageVersion Include="System.Data.SqlClient" Version="4.8.6" />
     <PackageVersion Include="Telegram.Bot" Version="20.0.0-alpha.1" />
     <PackageVersion Include="Testcontainers.MongoDb" Version="3.8.0" />
     <PackageVersion Include="Zitadel" Version="6.1.2" />

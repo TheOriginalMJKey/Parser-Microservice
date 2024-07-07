@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eL0LbtUhszXFd4/7dkKyWPXCOxrR+UvHiqswMOsZr7LRWnUdzRVY2DenFCeCja4u03ulTkoWd7WucRbJaeDCcg==",
+  "dgSpecHash": "33rO7TB402eJmo+25W13Di3sedN+DOybvQFmCmPh8SjAz+sOwWHEu0Vnj0kaZxPCctuZaxpDSKR054EBr4I3Ww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice2\\src\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.6\\microsoft.dotnet.ilcompiler.8.0.6.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
