@@ -1341,11 +1341,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice4\\src\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice4\\src\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice4\\src\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
@@ -1364,8 +1364,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj"
+            "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice4\\src\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice4\\src\\Domain\\Domain.csproj"
             }
           }
         }

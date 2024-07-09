@@ -160,11 +160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice4\\src\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice4\\src\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice4\\src\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [

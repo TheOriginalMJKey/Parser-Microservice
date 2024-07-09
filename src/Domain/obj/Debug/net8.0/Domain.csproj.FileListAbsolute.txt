@@ -26,3 +26,17 @@ C:\Users\Andrew\RiderProjects\Parser-Microservice3\src\Domain\obj\Debug\net8.0\D
 C:\Users\Andrew\RiderProjects\Parser-Microservice3\src\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\Andrew\RiderProjects\Parser-Microservice3\src\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\Andrew\RiderProjects\Parser-Microservice3\src\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\bin\Debug\net8.0\.xml
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Andrew\RiderProjects\Parser-Microservice4\src\Domain\obj\Debug\net8.0\ref\Domain.dll

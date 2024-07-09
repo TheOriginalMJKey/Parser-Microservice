@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace ProJect.Controllers
 {
     /// <summary>
-    /// Controller to return amount of sold good
+    /// ontroller to look for information about one good
     /// </summary>
     [ApiController]
     [Route("/Sales/GoodSold")]
@@ -30,7 +30,7 @@ namespace ProJect.Controllers
         }
 
         /// <summary>
-        /// Gets the sales by goods.
+        /// returns amount of sold good
         /// </summary>
         /// <param name="startDate">The start date of the period (format: YYYY-MM-DD).</param>
         /// <param name="endDate">The end date of the period (format: YYYY-MM-DD).</param>
