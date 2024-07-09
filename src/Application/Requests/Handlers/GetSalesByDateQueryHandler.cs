@@ -1,12 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Application.Interfaces;
-using Application.SalesFolder.Interfaces;
-using Application.SalesFolder.Queries;
-using Domain.Models;
+﻿using Application.Requests.Interfaces;
+using Application.Requests.Queries;
+using Infrastructure.Repositories;
 
-
-namespace Application.SalesFolder.Handlers
+namespace Application.Requests.Handlers
 {
     public class GetSalesByDateQueryHandler : IGetSalesByDateQueryHandler
     {

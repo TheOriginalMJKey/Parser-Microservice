@@ -1,4 +1,4 @@
-﻿namespace Application.SalesFolder.Interfaces
+﻿namespace Application.Requests.Interfaces
 {
     public interface IGetSalesByDateQuery
     {

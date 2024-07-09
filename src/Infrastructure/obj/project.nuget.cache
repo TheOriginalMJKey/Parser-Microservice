@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IyZxtfJ77JxY0N49M7hfHxQvV1aVkcR+maT/ohzjYQqB6NK6flskPEQZa40IpU5pVdNJsLKfzh80QD2+Zkv0uw==",
+  "dgSpecHash": "xIFk2auBMy1Wks1sMeCCZZ2Oj5ZpiYOjw5YyUreQ1f+9VAGUrhbvA7gaumz9jVSvXUYpN9B6E3H7TJj9df+6ag==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.6\\microsoft.net.illink.tasks.8.0.6.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\Andrew\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.4\\npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

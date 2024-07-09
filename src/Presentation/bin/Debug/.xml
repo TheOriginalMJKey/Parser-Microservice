@@ -4,15 +4,35 @@
         <name>Presentation</name>
     </assembly>
     <members>
-        <member name="M:ProJect.Controllers.DateController.GetDateRange(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+        <member name="T:Presentation.Controllers.OrdersController">
             <summary>
-            Get date range.
+            Controller for managing orders
             </summary>
-            <param name="start">The start date.</param>
-            <param name="end">The end date.</param>
-            <returns>The number of days between the two dates.</returns>
-            <response code="200">The operation was successful.</response>
-            <response code="400">The operation failed due to invalid input.</response>
+        </member>
+        <member name="M:Presentation.Controllers.OrdersController.#ctor(Application.Requests.Interfaces.ICreateOrderQueryHandler)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Presentation.Controllers.OrdersController"/> class.
+            </summary>
+            <param name="createOrderQueryHandler">The handler for creating order queries.</param>
+        </member>
+        <member name="M:Presentation.Controllers.OrdersController.PostOrder(Domain.Models.PostOrderModel)">
+             <summary>
+             Creates a new order.
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /CreateOrder
+                 {
+                    "order": {
+                        // Order details here
+                    }
+                 }
+            
+             </remarks>
+             <param name="order">The order to create.</param>
+             <response code="200">The order was created successfully.</response>
+             <response code="400">The order request was invalid.</response>
         </member>
     </members>
 </doc>

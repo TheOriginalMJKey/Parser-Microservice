@@ -1,18 +1,48 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <RootNamespace>ProJect</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
     <Configurations>Debug;Release;My</Configurations>
     <Platforms>AnyCPU</Platforms>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DocumentationFile>bin\Debug\net8.0\Presentation.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" />
+    
+    <PackageReference Include="CacheService" />
+    <PackageReference Include="GeoAPI" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="*" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="*" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="*" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="*" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="StackExchange.Redis" />
+    <PackageReference Include="StackExchange.Redis.Wrapper.NCache" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="*" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="*" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="*" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="*" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="*" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="*" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite" Version="8.0.4" />
     <PackageReference Include="SQLitePCLRaw.core" />
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" />
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="*" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="*" />
   </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 </Project>
