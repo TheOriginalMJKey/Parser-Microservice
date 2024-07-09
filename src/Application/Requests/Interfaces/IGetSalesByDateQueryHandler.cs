@@ -1,7 +1,6 @@
-﻿using Application.SalesFolder.Queries;
-using Domain.Models;
+﻿using Application.Requests.Queries;
 
-namespace Application.SalesFolder.Interfaces
+namespace Application.Requests.Interfaces
 {
     public interface IGetSalesByDateQueryHandler
     {

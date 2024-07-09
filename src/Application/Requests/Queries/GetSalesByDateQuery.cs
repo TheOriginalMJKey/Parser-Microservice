@@ -1,6 +1,6 @@
-﻿using Application.SalesFolder.Interfaces;
+﻿using Application.Requests.Interfaces;
 
-namespace Application.SalesFolder.Queries
+namespace Application.Requests.Queries
 {
     public class GetSalesByDateQuery : IGetSalesByDateQuery
     {
