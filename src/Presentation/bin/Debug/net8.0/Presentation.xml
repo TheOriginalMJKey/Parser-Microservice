@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Presentation</name>
+    </assembly>
+    <members>
+        <member name="T:Presentation.Controllers.OrdersController">
+            <summary>
+            Controller to manage orders.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.OrdersController.#ctor(Application.Requests.Interfaces.ICreateOrderQueryHandler,Application.Interfaces.IDeleteOrderQueryHandler)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Presentation.Controllers.OrdersController"/> class.
+            </summary>
+            <param name="createOrderQueryHandler">The handler for creating an order.</param>
+            <param name="deleteOrderQueryHandler">The handler for deleting an order.</param>
+        </member>
+        <member name="M:Presentation.Controllers.OrdersController.PostOrder(Domain.Models.PostOrderModel)">
+            <summary>
+            Creates a new order.
+            </summary>
+            <param name="order">The order details.</param>
+            <returns>A response indicating whether the order was created successfully.</returns>
+            <response code="200">The order was created successfully.</response>
+            <response code="400">The order details are invalid.</response>
+        </member>
+        <member name="M:Presentation.Controllers.OrdersController.DeleteOrder(Domain.Models.DeleteOrderModel)">
+            <summary>
+            Deletes an existing order.
+            </summary>
+            <param name="order">The order details to delete.</param>
+            <returns>A response indicating whether the order was deleted successfully.</returns>
+            <response code="200">The order was deleted successfully.</response>
+            <response code="400">The order details are invalid.</response>
+        </member>
+        <member name="T:ProJect.Controllers.SalesByClientsController">
+            <summary>
+            Controller to know one client spendings.
+            </summary>
+        </member>
+        <member name="M:ProJect.Controllers.SalesByClientsController.#ctor(Application.Requests.Interfaces.IGetSalesByClientsQueryHandler)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ProJect.Controllers.SalesByClientsController"/> class.
+            </summary>
+            <param name="getSalesByClientsQueryHandler">The handler for getting sales by clients query.</param>
+        </member>
+        <member name="M:ProJect.Controllers.SalesByClientsController.GetSalesByClients(System.String,System.String,System.String)">
+            <summary>
+            Gets the sales by client.
+            </summary>
+            <param name="startDate">The start date of the period (format: YYYY-MM-DD).</param>
+            <param name="endDate">The end date of the period (format: YYYY-MM-DD).</param>
+            <param name="clientName">The name of the client.</param>
+            <returns>A list of sales by clients.</returns>
+            <response code="200">Returns the list of sales by clients.</response>
+            <response code="400">If the provided start date, end date, or client name is invalid.</response>
+        </member>
+        <member name="T:ProJect.Controllers.SalesByGoodsController">
+            <summary>
+            Controller to return amount of sold good
+            </summary>
+        </member>
+        <member name="M:ProJect.Controllers.SalesByGoodsController.#ctor(Application.Requests.Interfaces.IGetSalesByGoodsQueryHandler)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ProJect.Controllers.SalesByGoodsController"/> class.
+            </summary>
+            <param name="getSalesByGoodsQueryHandler">The handler for getting sales by goods query.</param>
+        </member>
+        <member name="M:ProJect.Controllers.SalesByGoodsController.GetSalesByGoods(System.String,System.String,System.String)">
+            <summary>
+            Gets the sales by goods.
+            </summary>
+            <param name="startDate">The start date of the period (format: YYYY-MM-DD).</param>
+            <param name="endDate">The end date of the period (format: YYYY-MM-DD).</param>
+            <param name="goodsName">The name of the goods.</param>
+            <returns>A list of sales by goods.</returns>
+            <response code="200">Returns the list of sales by goods.</response>
+            <response code="400">If the provided start date, end date, or goods name is invalid.</response>
+        </member>
+        <member name="T:ProJect.Controllers.SalesController">
+            <summary>
+            Controller to manage sales.
+            </summary>
+        </member>
+        <member name="M:ProJect.Controllers.SalesController.#ctor(Application.Requests.Interfaces.IGetSalesByDateQueryHandler)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ProJect.Controllers.SalesController"/> class.
+            </summary>
+            <param name="getSalesByDateQueryHandler">The handler for getting sales by date query.</param>
+        </member>
+        <member name="M:ProJect.Controllers.SalesController.GetSales(System.String,System.String,System.String,System.String)">
+            <summary>
+            Gets the sales by date, customer name, and goods name.
+            </summary>
+            <param name="startDate">The start date of the period (format: YYYY-MM-DD).</param>
+            <param name="endDate">The end date of the period (format: YYYY-MM-DD).</param>
+            <param name="customerName">The name of the customer (optional).</param>
+            <param name="goodsName">The name of the goods (optional).</param>
+            <returns>A list of sales.</returns>
+            <response code="200">Returns the list of sales.</response>
+            <response code="400">If the provided start date or end date is invalid.</response>
+        </member>
+    </members>
+</doc>
