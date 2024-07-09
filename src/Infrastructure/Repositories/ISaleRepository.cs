@@ -10,5 +10,6 @@ namespace Infrastructure.Repositories
         Task<List<SalesByClientsViewModel>> GetSalesByClients(DateTime startDate, DateTime endDate, string clientName);
         Task CreateOrder(PostOrderModel order);
         Task DeleteOrder(DeleteOrderModel order);
+        Task<List<Sales>> GetSalesByMonth(int year, int month);
     }
 }

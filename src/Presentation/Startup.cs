@@ -50,6 +50,7 @@ public class Startup
         services.AddTransient<IGetSalesByClientsQueryHandler, GetSalesByClientsQueryHandler>();
         services.AddTransient<ICreateOrderQueryHandler, CreateOrderQueryHandler>();
         services.AddTransient<IDeleteOrderQueryHandler, DeleteOrderQueryHandler>();
+        services.AddTransient<IGetSalesByMonthQueryHandler, GetSalesByMonthQueryHandler>();
         //services.AddTransient<IInventoryServiceSync, InventoryServiceSync>();
         //services.AddTransient<IInventoryServiceAsync, InventoryServiceAsync>();
 

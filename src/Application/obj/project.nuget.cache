@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PHB17LPHCQkuVXC7GD+4Np3Te2ru00ZdZqU4zv1B/WQvkEfQgkIbyG7HBlzSQKRaCbeRmcY9EbwUOM0722ChcA==",
+  "dgSpecHash": "v+X9hQkd+7TDao0mO8u/dLH96APMeOAPo2blK7ds51Oa/q8bR8K+j57CVusidIoWQPPyE6Vt+FPNOWM3PfmhYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice3\\src\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Andrew\\RiderProjects\\Parser-Microservice4\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrew\\.nuget\\packages\\mediatr\\12.0.0\\mediatr.12.0.0.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\mediatr.contracts\\2.0.0\\mediatr.contracts.2.0.0.nupkg.sha512",

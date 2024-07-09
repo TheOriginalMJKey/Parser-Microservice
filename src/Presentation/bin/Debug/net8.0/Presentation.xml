@@ -34,9 +34,21 @@
             <response code="200">The order was deleted successfully.</response>
             <response code="400">The order details are invalid.</response>
         </member>
+        <member name="M:Presentation.Controllers.SalesByMonthController.GetSalesByMonth(System.Int32,System.Int32)">
+            <summary>
+            Gets the sales by month.
+            </summary>
+            <remarks>
+            Returns a list of sales for the specified year and month.
+            </remarks>
+            <response code="200">Returns the list of sales</response>
+            <response code="400">If the year or month are invalid</response>
+            <param name="year">The year to get sales for.</param>
+            <param name="month">The month to get sales for.</param>
+        </member>
         <member name="T:ProJect.Controllers.SalesByClientsController">
             <summary>
-            Controller to know one client spendings.
+            Controller to look for information about one client
             </summary>
         </member>
         <member name="M:ProJect.Controllers.SalesByClientsController.#ctor(Application.Requests.Interfaces.IGetSalesByClientsQueryHandler)">
@@ -47,7 +59,7 @@
         </member>
         <member name="M:ProJect.Controllers.SalesByClientsController.GetSalesByClients(System.String,System.String,System.String)">
             <summary>
-            Gets the sales by client.
+             to know one client spendings
             </summary>
             <param name="startDate">The start date of the period (format: YYYY-MM-DD).</param>
             <param name="endDate">The end date of the period (format: YYYY-MM-DD).</param>
@@ -58,7 +70,7 @@
         </member>
         <member name="T:ProJect.Controllers.SalesByGoodsController">
             <summary>
-            Controller to return amount of sold good
+            ontroller to look for information about one good
             </summary>
         </member>
         <member name="M:ProJect.Controllers.SalesByGoodsController.#ctor(Application.Requests.Interfaces.IGetSalesByGoodsQueryHandler)">
@@ -69,7 +81,7 @@
         </member>
         <member name="M:ProJect.Controllers.SalesByGoodsController.GetSalesByGoods(System.String,System.String,System.String)">
             <summary>
-            Gets the sales by goods.
+            returns amount of sold good
             </summary>
             <param name="startDate">The start date of the period (format: YYYY-MM-DD).</param>
             <param name="endDate">The end date of the period (format: YYYY-MM-DD).</param>

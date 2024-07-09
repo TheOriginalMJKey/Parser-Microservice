@@ -182,6 +182,48 @@ namespace Infrastructure.Repositories
 
             await _context.Database.ExecuteSqlRawAsync(sqlQuery, parameters);
         }
+        public async Task<List<Sales>> GetSalesByMonth(int year, int month)
+        {
+            string cacheKey = CreateCacheKeyForSalesByMonth(year, month);
+            var cachedResult = await _cacheService.GetAsync<List<Sales>>(cacheKey);
+
+            if (cachedResult != null)
+            {
+                return cachedResult;
+            }
+
+            string sqlQuery = "SELECT * FROM sales " +
+                              "WHERE EXTRACT(MONTH FROM sales_date) = @Month " +
+                              "AND EXTRACT(YEAR FROM sales_date) = @Year";
+
+            var parameters = new[]
+            {
+                new NpgsqlParameter("@Month", NpgsqlDbType.Integer) { Value = month },
+                new NpgsqlParameter("@Year", NpgsqlDbType.Integer) { Value = year }
+            };
+
+            var result = await _context.ExecuteSqlQueryAsync<Sales>(
+                sqlQuery,
+                reader => new Sales()
+                {
+                    SalesDate = reader["sales_date"].ToString(),
+                    GoodsId = int.Parse(reader["goods_id"].ToString()),
+                    CustomersId = int.Parse(reader["customers_id"].ToString()),
+                    Quantity = int.Parse(reader["quantity"].ToString())
+                },
+                parameters);
+
+            // Cache the results
+            await _cacheService.SetAsync(cacheKey, result, TimeSpan.FromMinutes(10));
+
+            return result;
+            
+        }
+        private string CreateCacheKeyForSalesByMonth(int year, int month)
+        {
+            return $"SalesByMonth_{year}_{month}";
+        }
+
 
         private string CreateCacheKey(DateTime startDate, DateTime endDate, string? name1, string? name2 = null)
         {

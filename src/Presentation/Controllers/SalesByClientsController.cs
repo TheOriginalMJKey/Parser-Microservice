@@ -1,4 +1,4 @@
-﻿using Application.Requests.Interfaces;
+﻿    using Application.Requests.Interfaces;
 using Application.Requests.Queries;
 using Domain.ViewModels;
 using Microsoft.AspNetCore.Authorization;
@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace ProJect.Controllers
 {
     /// <summary>
-    /// Controller to know one client spendings.
+    /// Controller to look for information about one client
     /// </summary>
     [ApiController]
     [Route("/ClientSpending")]
@@ -30,7 +30,7 @@ namespace ProJect.Controllers
         }
 
         /// <summary>
-        /// Gets the sales by client.
+        ///  to know one client spendings
         /// </summary>
         /// <param name="startDate">The start date of the period (format: YYYY-MM-DD).</param>
         /// <param name="endDate">The end date of the period (format: YYYY-MM-DD).</param>
