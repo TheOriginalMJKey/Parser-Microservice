@@ -47,10 +47,12 @@ Getting Started
 API Endpoints
 -------------
 
-* `GET /api/sales/date`: Get sales data by date range (optional filters: customer name, goods name)
-* `GET /api/sales/goods`: Get sales data by goods (filters: start date, end date, goods name)
-* `GET /api/sales/clients`: Get sales data by clients (filters: start date, end date, client name)
-* `GET /api/sales/month`: Get sales data by month (filter: year)
+* `GET /sales`: Get sales data by date range (optional filters: customer name, goods name)
+* `GET /salesbygoods`: Get sales data by goods (filters: start date, end date, goods name)
+* `GET /salesbycustomers`: Get sales data by clients (filters: start date, end date, client name)
+* `GET /salesbymonth`: Get sales data by month (filter: year)
+* `POST /orders/delete`: deletes existing order
+* `POST /orders/create`: creates order
 
 Contributing
 ------------
