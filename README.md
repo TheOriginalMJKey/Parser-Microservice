@@ -38,7 +38,7 @@ Technologies
 Getting Started
 ---------------
 
-1. Clone the repository: `git clone https://github.com/TheOriginalMJKey/Parser-Microservice/git`
+1. Clone the repository: `git clone https://github.com/TheOriginalMJKey/Parser-Microservice.git`
 2. Install the required packages: `dotnet restore`
 3. Configure the database connection string in `appsettings.json`
 4. Run the migrations: `dotnet ef database update`
