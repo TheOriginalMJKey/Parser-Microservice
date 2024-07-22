@@ -34,6 +34,7 @@ Technologies
 * PostgreSQL: A powerful, open-source object-relational database system.
 * Redis: An in-memory data structure store, used as a cache to improve performance.
 * Dapper: A simple, fast, and lightweight object-relational mapper (ORM) for .NET.
+* OAuth 2.0: Google authorization for safety purposes
 
 Getting Started
 ---------------
