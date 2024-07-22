@@ -52,7 +52,7 @@ API Endpoints
 * `GET /salesbygoods`: Get sales data by goods (filters: start date, end date, goods name)
 * `GET /salesbycustomers`: Get sales data by clients (filters: start date, end date, client name)
 * `GET /salesbymonth`: Get sales data by month (filter: year)
-* `POST /orders/delete`: deletes existing order
+* `DELETE /orders/delete`: deletes existing order
 * `POST /orders/create`: creates order
 
 Contributing
