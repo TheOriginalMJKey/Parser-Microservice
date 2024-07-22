@@ -1,7 +1,7 @@
 Parser Microservice
 =================
 
-A simple and efficient API for analyzing sales data, built with a focus on clean architecture, performance, and scalability. This project allows you to query your sales data in various ways, such as by date range, goods, or clients, and returns the results in a fast and reliable manner.
+A simple and efficient API for analyzing sales data, built with a focus on clean architecture, performance, and scalability. This project allows you to query your sales data in various ways, such as by date range, goods, or clients, and returns the results in a fast and reliable manner. Also allows you to create new or delete existing orders.
 
 Table of Contents
 -----------------
