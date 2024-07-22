@@ -1,4 +1,4 @@
-Sales Analysis API
+Parser Microservice
 =================
 
 A simple and efficient API for analyzing sales data, built with a focus on clean architecture, performance, and scalability. This project allows you to query your sales data in various ways, such as by date range, goods, or clients, and returns the results in a fast and reliable manner.
